@@ -1,0 +1,18 @@
+# http://humanstxt.org/
+
+
+/* TEAM */
+
+  Developer & Designer: Thierry Rene
+  Contact: contato@thierryrenewebdev.com
+  Twitter: @thierryrenne
+  Location: São Paulo, SP, Brasil
+
+
+/* SITE */
+
+  Last update: 09/2014
+  Standards: HTML5, CSS3, JS
+  Components: Bourbon, Neat, Bitters, SimpleGrid
+  Hosting: Hostgator Brasil
+  Software: Sublime Text, Windows
