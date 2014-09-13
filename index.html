@@ -1,123 +1,107 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="pt-br">
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Ted's HTML5 Template</title>
-  <meta name="author" content="Ted Serbinski">
-  <meta name="description" content="A HTML5 template optimized for mobile, SEO, and semantic markup.">
-  <meta name="copyright" content="&copy; 2006-2014 Ted Serbinski">
+  <title>Thierry Rene Web Dev. Front End</title>
+  
+  <meta name="author" content="Thierry Rene">
+  <meta name="description" content="Web Developer Front End">
+  <meta name="copyright" content="&copy; 2009-2014 Thierry Rene">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <meta http-equiv="cleartype" content="on">
 
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="TedSerbinski.com RSS Feed" href="http://feeds.feedburner.com/tedserbinski-blog">
-  <link rel="author" type="text/plain" href="http://tedserbinski.com/humans.txt">
-  <link rel="canonical" href="http://tedserbinski.com/">
-  <link rel="stylesheet" href="assets/css/style.css?v=1.0">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png">
+  <meta name="apple-mobile-web-app-title" content="Thierry Rene Web Dev.">
+  <link rel="icon" type="image/png" href="/favicon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+  
+  <!-- <link rel="alternate" type="application/rss+xml" title="TedSerbinski.com RSS Feed" href="http://feeds.feedburner.com/tedserbinski-blog"> -->
+  
+  <link rel="author" type="text/plain" href="http://thierryrenewebdev.com/humans.txt">
+  <link rel="canonical" href="http://thierryrenewebdev.com/">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/app.css">
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
   <!-- Windows 8: see http://msdn.microsoft.com/en-us/library/ie/dn255024%28v=vs.85%29.aspx for details -->
-  <meta name="application-name" content="Ted Serbinski">
-  <meta name="msapplication-TileColor" content="">
-  <meta name="msapplication-TileImage" content="">
-  <meta name="msapplication-square150x150logo" content="">
-  <meta name="msapplication-square310x310logo" content="">
-  <meta name="msapplication-square70x70logo" content="">
-  <meta name="msapplication-wide310x150logo" content="">
+  <meta name="application-name" content="Thierry Rene Web Dev.">
+  <meta name="msapplication-TileColor" content="#424242">
+  <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
   <!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@tedserbinski">
-  <meta name="twitter:creator" content="@tedserbinski">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:url" content="">
-  <meta name="twitter:image" content="">
+  <meta name="twitter:site" content="@thierryrenne">
+  <meta name="twitter:creator" content="@thierryrenne">
+  <meta name="twitter:title" content="Thierry Rene Web Dev.">
+  <meta name="twitter:description" content="Desenvolver Web Front End">
+  <meta name="twitter:url" content="http://thierryrenewebdev.com">
+  <meta name="twitter:image" content="http://thierryrenewebdev.com/favicon/favicon-196x196.png">
   <!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Ted Serbinski">
-  <meta property="article:author" content="https://www.facebook.com/tedserbinski">
-  <meta property="og:title" content="">
-  <meta property="og:description" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:site_name" content="Thierry Rene Web Developer">
+  <meta property="article:author" content="https://www.facebook.com/thierryrenesantosmatos">
+  <meta property="og:title" content="Thierry Rene Web Dev.">
+  <meta property="og:description" content="Desenvolvedor Web Front End">
+  <meta property="og:url" content="http://thierryrenewebdev.com">
+  <meta property="og:image" content="http://thierryrenewebdev.com/favicon/favicon-196x196.png">
 </head>
 
 <body>
-  <header id="masthead">
-    <!-- USE H1 ON HOMEPAGE ONLY -->
-    <h4><a href="/">Ted Serbinski</a></h4>
-    <nav id="headernav" role="navigation">
-      <ul>
-        <li><a href="/">Home</a>
-        </li>
-        <li><a href="/">Link 2</a>
-        </li>
-        <li><a href="/">Link 3</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <main role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+  <!--[if lt IE 7]>
+            <p class="chromeframe">Você está utilizando um navegador <strong>desatualizado</strong>. Por favor <a href="http://browsehappy.com/">atualize o seu navegador</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">ative o Google Chrome Frame</a> para melhorar a navegação.</p>
+  <![endif]-->
 
-    <article class="h-entry" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-      <header>
-        <h1 class="p-name" itemprop="name">Blog Post Title</h1>
-      </header>
-      <section class="e-content" itemprop="description articleBody">
-        <h2>First Part</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        <h3>Break it down</h3>
-        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-        <blockquote>Optio cumque nihil impedit quo minus id quod maxime placeat facere</blockquote>
-        <p>Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+  <!-- content goes here -->
+    
+  
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')
+  </script>
+  
+  <!-- <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script> -->
 
-        <figure class="u-photo center" itemprop="image">
-          <img src="http://placehold.it/750x350">
-          <figcaption>Id est laborum et dolorum fuga</figcaption>
-        </figure>
-
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-          mollitia animi, id est laborum et dolorum fuga.</p>
-
-        <h2>Second Part</h2>
-        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-      </section>
-      <footer class="e-footer">
-        Tweet &amp; Subscribe Links
-        <br>
-        <a href="/" rel="bookmark" title="permalink" class="u-url" itemprop="url">
-          <time class="dt-published" itemprop="datePublished" datetime="2014-06-24 01:45:00 -0800">06 Jun 2014</time>
-        </a>
-        <br>
-        <a href="/" class="p-category" rel="tag">tag 1</a>, <a href="/" class="p-category" rel="tag">tag 2</a>
-      </footer>
-      <section class="p-comment" itemprop="comment">
-        DISQUS
-      </section>
-    </article>
-
-  </main>
-
-  <aside role="complementary">
-    <h4>Sidebar content</h4>
-  </aside>
-
-  <footer id="footer">
-    <h5>About</h5>
-    <h5>Top posts</h5>
-    &copy; 2006-2014 Ted Serbinski. All rights reserved.
-  </footer>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+      var _gaq = [
+          ['_setAccount', 'UA-XXXXX-X'],
+          ['_trackPageview']
+      ];
+      (function(d, t) {
+          var g = d.createElement(t),
+              s = d.getElementsByTagName(t)[0];
+          g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+          s.parentNode.insertBefore(g, s)
+      }(document, 'script'));
+  </script>
 
   <!--Google analytics -->
 </body>
